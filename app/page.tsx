@@ -114,8 +114,8 @@ export default function Home() {
                                 <button
                                     key={index}
                                     onClick={() => handleAnswer(option)}
-                                    className="w-full p-4 text-left bg-white rounded-lg shadow hover:bg-purple-50 
-                                                border-2 border-transparent hover:border-purple-500 
+                                    className="w-full p-4 text-purple-900 text-left bg-white rounded-lg shadow hover:bg-purple-50
+                                                border-2 border-transparent hover:border-purple-500
                                                 transition-colors duration-200 hover:shadow-md"
                                 >
                                     {option.text}
@@ -128,7 +128,7 @@ export default function Home() {
                                 <button
                                     onClick={handleBack}
                                     className="w-1/2 p-4 bg-purple-100 rounded-lg shadow hover:bg-purple-200
-                                                border-2 border-transparent hover:border-purple-500 
+                                                border-2 border-transparent hover:border-purple-500
                                                 transition-colors duration-200 hover:shadow-md"
                                 >
                                     ← Kararım Değişti Geri Dön
@@ -141,7 +141,7 @@ export default function Home() {
                                         setResult(null)
                                     }}
                                     className="w-1/2 p-4 bg-red-100 rounded-lg shadow hover:bg-red-200
-                                                border-2 border-transparent hover:border-red-500 
+                                                border-2 border-transparent hover:border-red-500
                                                 transition-colors duration-200 hover:shadow-md"
                                 >
                                     ← Yeniden Başla
